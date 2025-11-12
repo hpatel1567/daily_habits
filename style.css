@@ -1,0 +1,28 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 50px;
+}
+
+.container {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+#habit-list div {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: gray;
+}
+
